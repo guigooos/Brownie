@@ -248,5 +248,6 @@ footer p{
     .image img{
         width: 300px;
         display:flex;
+        justify-content:center;
     }
 }
