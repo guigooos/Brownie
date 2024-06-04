@@ -20,7 +20,7 @@ body{
     background-color: #FCEAD6;
 }
 nav{
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     padding: 2rem 1rem;
     display:flex;
@@ -81,7 +81,7 @@ nav{
     }
 }
 .container{
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     padding: 1rem 2rem;
     
@@ -154,7 +154,7 @@ header .image{
     height: 300px;
 }
 .cardapio{
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     padding: 1rem 2rem;
 }
@@ -190,15 +190,19 @@ footer p{
     bottom: 20px;
 }
 @media (max-width: 900px){
-    .coluna{
+    .inicio{
         width: 100%;
         vertical-align: middle;
         margin-bottom: 30px;
     }
-    .banner p{
+    .cardapio{
         font-size: 26px;
         padding-left: 50px;
         padding-right: 50px;
         text-align: center;
     }
+    header .image{
+        margin-left: 5rem;
+        width: 200px;
+
 }
