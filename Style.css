@@ -20,7 +20,7 @@ body{
     background-color: #FCEAD6;
 }
 nav{
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     padding: 2rem 1rem;
     display:flex;
@@ -81,7 +81,7 @@ nav{
     }
 }
 .container{
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     padding: 1rem 2rem;
     
@@ -154,7 +154,7 @@ header .image{
     height: 300px;
 }
 .cardapio{
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     padding: 1rem 2rem;
 }
