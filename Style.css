@@ -190,19 +190,63 @@ footer p{
     bottom: 20px;
 }
 @media (max-width: 900px){
+    nav{
+        display:flex;
+        .nav-link{
+            gap: 2rem;
+
+        }
+        .link a{
+        font-size: 12px;
+        }
+    }
+
     .inicio{
         width: 100%;
         vertical-align: middle;
         margin-bottom: 30px;
     }
+    .nav-logo{
+        width: 150px;
+        align-items: center;
+    }
     .cardapio{
         font-size: 26px;
         padding-left: 50px;
         padding-right: 50px;
-        text-align: center;
+        text-align:justify;
     }
-    header .image{
-        margin-left: 5rem;
-        width: 200px;
+
+    header{
+        display: block;
+        gap: 0;
+    }
+    .btn a{
+        font-size: 10px;
+    }
+    .cardapio{
+        margin: auto;
+        padding: 1rem 2rem;
+    }
+    .cardapio .content h1{
+        font-size: 36px;
+        background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: #623207 2px;
+    }
+    .cardapio .content .produto{
+        margin: 2rem;
+        font-family: 'Poppins';
+        .titulo{
+            color: #623207;
+            font-size: 26px;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .image img{
+        width: 300px;
+        display:flex;
     }
 }
